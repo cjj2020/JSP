@@ -7,31 +7,27 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
-<html lang=" zh-CN">
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title> 登陆验证测试</title></head>
+    <title>欢迎登陆！</title>
+</head>
 <body>
 <div align="center">
-
-    <form method="post" action="loginsuccess.jsp">
-        用户名：<input type="text" name="username"><br>
-          密码：<input type="password" name="password"><br>
-        <button type="submit">登录</button>   </form>
-    <form method="post" action="register.html">
-        <button type="submit" >注册</button>
-    </form>
+        用户名：<input type="text" id="username" value=""><br>
+         密码 ：<input type="password" id="password" value=""><br>
+            <button type="button" name="chkBtn" id="chkBtn">登陆</button>
 </div>
 </body>
 <script>
-    document . getElementById( ' chkBtn' ). addEventListener('click', function () {
-        var username = document.getElementById("username").value;
-        var passworddocument=document.getElementById("password").value;
-        if (username == ' admin' && password == 'admin') {
-            window.location.href = 'http:/ /www. baidu. com';
-        } else {
-            alert('抱歉，用户名或密码错误! ');
-        }
-    })
+    document.getElementById( 'chkBtn' ). addEventListener('click', function (){
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password" ).value;
+    if (username == 'cj2020' && password == '123456'){
+    window. location.href = 'index.jsp';
+    }else{
+    alert( '抱歉，用户名或密码错误! ');
+    }
+    });
 </script>
 </html>
