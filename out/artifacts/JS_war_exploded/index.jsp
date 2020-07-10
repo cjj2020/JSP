@@ -9,7 +9,6 @@
   <meta http-equiv="description" content="this is my page">
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-  <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
 
 </head>
 
@@ -52,7 +51,7 @@
 <h1>计算机类</h1>
 <br/>
 
-<!-- 第七部分 共xxx种商品 -->
+<!-- 第七部分 共8种商品 -->
 <span>共8种商品</span>
 <hr>
 
@@ -76,10 +75,10 @@
     </td>
   </tr>
   <tr>
-    <td align="center">书名：时空穿行<br/>售价：69.9</td>
-    <td align="center">书名：感悟<br/>售价：78</td>
-    <td align="center">书名：赢在影响力<br/>售价：59.9</td>
-    <td align="center">书名：谁动了我的奶酪<br/>售价：66</td>
+    <td align="center">书名：时空穿行<br/>售价：69.9<br/><button type="submit" >购买</button></td>
+    <td align="center">书名：感悟<br/>售价：78<br/><button type="submit" >购买</button></td>
+    <td align="center">书名：赢在影响力<br/>售价：59.9<br/><button type="submit" >购买</button></td>
+    <td align="center">书名：谁动了我的奶酪<br/>售价：66<br/><button type="submit" >购买</button></td>
   </tr>
   <tr>
     <td align="center">
@@ -96,10 +95,10 @@
     </td>
   </tr>
   <tr>
-    <td align="center">书名：培育男孩<br/>售价：87.9</td>
-    <td align="center">书名：别做正常的傻瓜<br/>售价：72</td>
-    <td align="center">书名：学会宽容<br/>售价：86</td>
-    <td align="center">书名：网管员必备宝典<br/>售价：99</td>
+    <td align="center">书名：培育男孩<br/>售价：87.9<br/><button type="submit" >购买</button></td>
+    <td align="center">书名：别做正常的傻瓜<br/>售价：72<br/><button type="submit" >购买</button></td>
+    <td align="center">书名：学会宽容<br/>售价：86<br/><button type="submit" >购买</button></td>
+    <td align="center">书名：网管员必备宝典<br/>售价：99<br/><button type="submit" >购买</button></td>
   </tr>
 </table>
 
